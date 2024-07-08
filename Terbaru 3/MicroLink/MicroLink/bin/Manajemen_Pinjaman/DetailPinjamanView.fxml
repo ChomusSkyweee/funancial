@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Manajemen_Pinjaman.DetailPinjamanController" alignment="CENTER" spacing="10" stylesheets="@../style.css">
+    <Label text="Detail Pinjaman" styleClass="label-title"/>
+    <GridPane hgap="10" vgap="10">
+        <Label text="Nama Pengaju:"/>
+        <Label fx:id="namaPengajuLabel" GridPane.columnIndex="1"/>
+        
+        <Label text="Jumlah Pinjaman:" GridPane.rowIndex="1"/>
+        <Label fx:id="jumlahPinjamanLabel" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+        <Label text="Status Pinjaman:" GridPane.rowIndex="2"/>
+        <Label fx:id="statusPinjamanLabel" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+        <Label text="Tanggal Pengajuan:" GridPane.rowIndex="3"/>
+        <Label fx:id="tanggalPengajuanLabel" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    </GridPane>
+    <Button text="Kembali" onAction="#handleKembali" styleClass="button"/>
+</VBox>

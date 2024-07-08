@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="688.0" prefWidth="895.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Daftar_Penawaran_Pinjaman.FXMLDocumentControllerTampilan1">
+    <children>
+      <Text layoutX="26.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opsi Penawaran Pinjaman Tersedia">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="26.0" layoutY="50.0" prefHeight="47.0" prefWidth="812.0" style="-fx-background-color: blue;">
+         <children>
+            <Text fill="WHITE" layoutX="51.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Pemilik Usaha" />
+            <Text fill="WHITE" layoutX="51.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Usaha">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="578.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. XXX.XXX.XXX" />
+            <Text fill="WHITE" layoutX="14.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Button fx:id="buttonPilih1" layoutX="708.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="89.0" text="Pilih" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="26.0" layoutY="118.0" prefHeight="47.0" prefWidth="812.0" style="-fx-background-color: blue;">
+         <children>
+            <Text fill="WHITE" layoutX="51.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Pemilik Usaha" />
+            <Text fill="WHITE" layoutX="51.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Usaha">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="577.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. XXX.XXX.XXX" />
+            <Text fill="WHITE" layoutX="14.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Button fx:id="buttonPilih2" layoutX="708.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="89.0" text="Pilih" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="26.0" layoutY="184.0" prefHeight="47.0" prefWidth="812.0" style="-fx-background-color: blue;">
+         <children>
+            <Text fill="WHITE" layoutX="51.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Pemilik Usaha" />
+            <Text fill="WHITE" layoutX="51.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Usaha">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="577.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. XXX.XXX.XXX" />
+            <Text fill="WHITE" layoutX="14.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Button fx:id="buttonPilih3" layoutX="708.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="89.0" text="Pilih" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="26.0" layoutY="253.0" prefHeight="47.0" prefWidth="812.0" style="-fx-background-color: blue;">
+         <children>
+            <Text fill="WHITE" layoutX="51.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Pemilik Usaha" />
+            <Text fill="WHITE" layoutX="51.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Usaha">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="577.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. XXX.XXX.XXX" />
+            <Text fill="WHITE" layoutX="14.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Button fx:id="buttonPilih4" layoutX="708.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="89.0" text="Pilih" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

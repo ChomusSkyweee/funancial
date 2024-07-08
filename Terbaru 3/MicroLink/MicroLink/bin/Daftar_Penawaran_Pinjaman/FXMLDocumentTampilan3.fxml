@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="937.0" prefWidth="1734.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Daftar_Penawaran_Pinjaman.FXMLDocumentControllerTampilan3">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="937.0" prefWidth="433.0" style="-fx-background-color: #CCDBDC;">
+         <children>
+            <ImageView fitHeight="193.0" fitWidth="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@profile-icon-9.png" />
+               </image>
+            </ImageView>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: #CCDBDC;" text="Button">
+               <graphic>
+                  <ImageView disable="true" fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: #CCDBDC;" text="Button" textAlignment="CENTER">
+               <graphic>
+                  <ImageView disable="true" fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: #CCDBDC;" text="Button">
+               <graphic>
+                  <ImageView disable="true" fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: #CCDBDC;" text="Button">
+               <graphic>
+                  <ImageView disable="true" fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: #CCDBDC;" text="Button">
+               <graphic>
+                  <ImageView disable="true" fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: #CCDBDC;" text="Button" wrapText="true">
+               <graphic>
+                  <ImageView disable="true" fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Label alignment="CENTER" layoutX="803.0" layoutY="57.0" prefHeight="108.0" prefWidth="627.0" text="Laporan Transaksi">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableViewDaftarPenawaranPinjaman" layoutX="432.0" layoutY="331.0" prefHeight="607.0" prefWidth="1303.0">
+        <columns>
+            <TableColumn prefWidth="26.399961471557617" text="No" />
+            <TableColumn prefWidth="200.0" text="Nama" />
+            <TableColumn prefWidth="200.0" text="Jumlah" />
+            <TableColumn prefWidth="200.0" text="Tanggal" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

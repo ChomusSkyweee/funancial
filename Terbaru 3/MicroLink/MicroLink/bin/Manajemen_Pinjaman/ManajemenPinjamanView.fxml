@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Manajemen_Pinjaman.ManajemenPinjamanController" alignment="CENTER" spacing="10" stylesheets="@../style.css">
+    <Label text="Manajemen Pinjaman" styleClass="label-title"/>
+    <ListView fx:id="pinjamanListView" />
+</VBox>

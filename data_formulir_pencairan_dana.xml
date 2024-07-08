@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FormulirDataList>
+    <FormulirData>
+        <namaDepan>werw</namaDepan>
+        <namaBelakang>wrw</namaBelakang>
+        <nomorKTP>4332423</nomorKTP>
+        <alamatLengkap>2342</alamatLengkap>
+        <bankPilihan>Bank Central Asia (BCA)</bankPilihan>
+        <nomorRekening>243</nomorRekening>
+        <nominalPencairan>234</nominalPencairan>
+        <nomorHandphone>234</nomorHandphone>
+        <alamatEmail>wqqe</alamatEmail>
+    </FormulirData>
+    <FormulirData>
+        <namaDepan>adsad</namaDepan>
+        <namaBelakang>asdads</namaBelakang>
+        <nomorKTP>231</nomorKTP>
+        <alamatLengkap>qweq</alamatLengkap>
+        <bankPilihan>Bank Rakyat Indonesia (BRI)</bankPilihan>
+        <nomorRekening>1231</nomorRekening>
+        <nominalPencairan>1312</nominalPencairan>
+        <nomorHandphone>123</nomorHandphone>
+        <alamatEmail>we</alamatEmail>
+    </FormulirData>
+    <FormulirData>
+        <namaDepan>adsad</namaDepan>
+        <namaBelakang>asdads</namaBelakang>
+        <nomorKTP>231</nomorKTP>
+        <alamatLengkap>qweq</alamatLengkap>
+        <bankPilihan>Bank Rakyat Indonesia (BRI)</bankPilihan>
+        <nomorRekening>1231</nomorRekening>
+        <nominalPencairan>1312</nominalPencairan>
+        <nomorHandphone>123</nomorHandphone>
+        <alamatEmail>we</alamatEmail>
+    </FormulirData>
+    <FormulirData>
+        <namaDepan>erw</namaDepan>
+        <namaBelakang>ewrwe</namaBelakang>
+        <nomorKTP>342</nomorKTP>
+        <alamatLengkap>erw</alamatLengkap>
+        <bankPilihan>Bank Rakyat Indonesia (BRI)</bankPilihan>
+        <nomorRekening>432</nomorRekening>
+        <nominalPencairan>234</nominalPencairan>
+        <nomorHandphone>243</nomorHandphone>
+        <alamatEmail>sfd</alamatEmail>
+    </FormulirData>
+    <FormulirData>
+        <namaDepan>erw</namaDepan>
+        <namaBelakang>ewrwe</namaBelakang>
+        <nomorKTP>342</nomorKTP>
+        <alamatLengkap>erw</alamatLengkap>
+        <bankPilihan>Bank Rakyat Indonesia (BRI)</bankPilihan>
+        <nomorRekening>432</nomorRekening>
+        <nominalPencairan>234</nominalPencairan>
+        <nomorHandphone>243</nomorHandphone>
+        <alamatEmail>sfd</alamatEmail>
+    </FormulirData>
+</FormulirDataList>
